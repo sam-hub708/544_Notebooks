@@ -1,0 +1,69 @@
+---
+format: pdf
+---
+
+# Follow the instructions below before the start of Lecture 2:
+
+1. **Anaconda Installation**:
+- If you haven't installed Anaconda on your computer, do so by visiting [Download Anaconda](https://www.anaconda.com/download) and following the on-site instructions.
+
+2. **Fork and clone the repository of the class**
+- Go to <https://github.com/eduardo-zambrano/544_Notebooks> and click on *fork*.
+- In a directory of your choice, make a local copy of your repo (a
+clone). Git clone will automatically setup your forked repository as
+the origin remote
+
+```bash
+   git clone https://github.com/eduardo-zambrano/544_Notebooks
+```
+
+3. **Configure Git to pull changes from the upstream repository**
+- On the terminal, type:
+```bash
+git remote add upstream https://github.com/eduardo-zambrano/544_Notebooks.git
+```
+- Check it worked by running 
+```bash
+   git remote -v 
+```
+- To keep your repository up to date you will type: 
+
+```bash
+   git pull upstream main
+```
+
+4. **Set up the Conda Environment**:
+- Create a conda environment using the following command: 
+```bash
+conda env create -f ECON_544_S24.yml
+```
+
+5. **Activate the Environment**:
+- Once the environment is successfully created, activate it with:
+```bash
+conda activate ECON_544_S24
+```
+
+6. **Start Jupyter**:
+- While in the activated conda environment, and in the directory where you saved the notebooks, launch Jupyter Notebook by entering:
+```bash
+jupyter notebook
+```
+- Your default web browser will open displaying the Jupyter dashboard. From here, you can open the workshop notebooks and start working.
+
+6. **Working with branches**:
+- If you want to  make changes to the code without losing the original files, consider creating and working with branches. Below is the syntax you can use to create a branch called `Lecture_2_experiments`
+
+```bash
+git branch Lecture_2_experiments
+```
+
+To go to the branch you created you type
+
+```bash
+git checkout Lecture_2_experiments
+```
+
+You can make changes in that branch, stage them, commit them and push them as usual.
+
+You can switch between the `main` branch and your `Lecture_2_experiments` using `git checkout name_of_branch`. 
