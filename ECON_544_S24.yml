@@ -1,5 +1,6 @@
 name: ECON_544_S24
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - anyio=4.2.0=py312hca03da5_0
@@ -73,6 +74,7 @@ dependencies:
   - libcxx=14.0.6=h848a8c0_0
   - libdeflate=1.17=h80987f9_1
   - libedit=3.1.20230828=h80987f9_0
+  - libexpat=2.5.0=hb7217d7_1
   - libffi=3.4.4=hca03da5_0
   - libgfortran=5.0.0=11_3_0_hca03da5_28
   - libgfortran5=11.3.0=h009349e_28
@@ -83,9 +85,11 @@ dependencies:
   - libpng=1.6.39=h80987f9_0
   - libpq=12.17=h02f6b3c_0
   - libsodium=1.0.18=h1a28f6b_0
+  - libsqlite=3.45.3=h091b4b1_0
   - libtiff=4.5.1=h313beb8_0
   - libwebp-base=1.3.2=h80987f9_0
   - libxml2=2.10.4=h0dcf63f_1
+  - libzlib=1.2.13=h53f4e23_5
   - llvm-openmp=14.0.6=hc6e5704_0
   - lz4-c=1.9.4=h313beb8_0
   - markupsafe=2.1.3=py312h80987f9_0
@@ -106,12 +110,13 @@ dependencies:
   - numpy=1.26.4=py312h7f4fdc5_0
   - numpy-base=1.26.4=py312he047099_0
   - openjpeg=2.3.0=h7a6adac_2
-  - openssl=3.0.13=h1a28f6b_0
+  - openssl=3.2.1=h0d3ecfb_1
   - overrides=7.4.0=py312hca03da5_0
   - packaging=23.2=py312hca03da5_0
   - pandas=2.2.1=py312hd77ebd4_0
   - pandocfilters=1.5.0=pyhd3eb1b0_0
   - parso=0.8.3=pyhd3eb1b0_0
+  - patsy=0.5.6=pyhd8ed1ab_0
   - pcre2=10.42=hb066dcc_0
   - pexpect=4.8.0=pyhd3eb1b0_3
   - pillow=10.2.0=py312h80987f9_0
@@ -121,6 +126,7 @@ dependencies:
   - prometheus_client=0.14.1=py312hca03da5_0
   - prompt-toolkit=3.0.43=py312hca03da5_0
   - prompt_toolkit=3.0.43=hd3eb1b0_0
+  - properscoring=0.1=py_0
   - psutil=5.9.0=py312h80987f9_0
   - ptyprocess=0.7.0=pyhd3eb1b0_2
   - pure_eval=0.2.2=pyhd3eb1b0_0
@@ -130,11 +136,12 @@ dependencies:
   - pyqt=5.15.10=py312h313beb8_0
   - pyqt5-sip=12.13.0=py312h80987f9_0
   - pysocks=1.7.1=py312hca03da5_0
-  - python=3.12.2=h99e199e_0
+  - python=3.12.2=hdf0ec26_0_cpython
   - python-dateutil=2.8.2=pyhd3eb1b0_0
   - python-fastjsonschema=2.16.2=py312hca03da5_0
   - python-json-logger=2.0.7=py312hca03da5_0
   - python-tzdata=2023.3=pyhd3eb1b0_0
+  - python_abi=3.12=4_cp312
   - pytz=2023.3.post1=py312hca03da5_0
   - pyyaml=6.0.1=py312h80987f9_0
   - pyzmq=25.1.2=py312h313beb8_0
@@ -148,6 +155,7 @@ dependencies:
   - rfc3986-validator=0.1.1=py312hca03da5_0
   - rpds-py=0.10.6=py312hf0e4da2_0
   - scipy=1.12.0=py312hfa28a95_0
+  - seaborn=0.12.2=py312hca03da5_0
   - send2trash=1.8.2=py312hca03da5_0
   - setuptools=68.2.2=py312hca03da5_0
   - sip=6.7.12=py312h313beb8_0
@@ -156,9 +164,10 @@ dependencies:
   - soupsieve=2.5=py312hca03da5_0
   - sqlite=3.41.2=h80987f9_0
   - stack_data=0.2.0=pyhd3eb1b0_0
+  - statsmodels=0.14.1=py312hf635c46_0
   - terminado=0.17.1=py312hca03da5_0
   - tinycss2=1.2.1=py312hca03da5_0
-  - tk=8.6.12=hb8d0fd4_0
+  - tk=8.6.13=h5083fa2_1
   - tornado=6.3.3=py312h80987f9_0
   - traitlets=5.7.1=py312hca03da5_0
   - typing-extensions=4.9.0=py312hca03da5_1
@@ -173,6 +182,6 @@ dependencies:
   - xz=5.4.6=h80987f9_0
   - yaml=0.2.5=h1a28f6b_0
   - zeromq=4.3.5=h313beb8_0
-  - zlib=1.2.13=h5a0b063_0
+  - zlib=1.2.13=h53f4e23_5
   - zstd=1.5.5=hd90d995_0
 prefix: /Users/ezambran/anaconda3/envs/ECON_544_S24
