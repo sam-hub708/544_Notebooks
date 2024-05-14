@@ -20,11 +20,12 @@ dependencies:
   - brotli-python=1.0.9=py312h313beb8_7
   - bzip2=1.0.8=h80987f9_5
   - ca-certificates=2024.3.11=hca03da5_0
-  - certifi=2024.2.2=py312hca03da5_0
+  - certifi=2024.2.2=pyhd8ed1ab_0
   - cffi=1.16.0=py312h80987f9_0
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - comm=0.2.1=py312hca03da5_0
   - contourpy=1.2.0=py312h48ca7d4_0
+  - copulae=0.3.1=py_0
   - cycler=0.11.0=pyhd3eb1b0_0
   - cyrus-sasl=2.1.28=h9131b1a_1
   - debugpy=1.6.7=py312h313beb8_0
@@ -91,6 +92,7 @@ dependencies:
   - libxml2=2.10.4=h0dcf63f_1
   - libzlib=1.2.13=h53f4e23_5
   - llvm-openmp=14.0.6=hc6e5704_0
+  - llvmlite=0.42.0=py312h313beb8_0
   - lz4-c=1.9.4=h313beb8_0
   - markupsafe=2.1.3=py312h80987f9_0
   - matplotlib=3.8.0=py312hca03da5_0
@@ -106,11 +108,12 @@ dependencies:
   - nest-asyncio=1.6.0=py312hca03da5_0
   - notebook=7.0.8=py312hca03da5_0
   - notebook-shim=0.2.3=py312hca03da5_0
+  - numba=0.59.1=py312hd77ebd4_0
   - numexpr=2.8.7=py312h0f3ea24_0
   - numpy=1.26.4=py312h7f4fdc5_0
   - numpy-base=1.26.4=py312he047099_0
   - openjpeg=2.3.0=h7a6adac_2
-  - openssl=3.2.1=h0d3ecfb_1
+  - openssl=3.3.0=h0d3ecfb_0
   - overrides=7.4.0=py312hca03da5_0
   - packaging=23.2=py312hca03da5_0
   - pandas=2.2.1=py312hd77ebd4_0
@@ -165,6 +168,7 @@ dependencies:
   - sqlite=3.41.2=h80987f9_0
   - stack_data=0.2.0=pyhd3eb1b0_0
   - statsmodels=0.14.1=py312hf635c46_0
+  - tbb=2021.10.0=h1995070_2
   - terminado=0.17.1=py312hca03da5_0
   - tinycss2=1.2.1=py312hca03da5_0
   - tk=8.6.13=h5083fa2_1
